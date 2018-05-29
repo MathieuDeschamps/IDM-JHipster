@@ -1,0 +1,347 @@
+2018/05/28 21:10:30.947 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Fournisseur
+2018/05/28 21:10:30.951 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Fournisseur on table Fournisseur
+2018/05/28 21:10:31.013 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Category.saleProducts -> SaleProduct
+2018/05/28 21:10:31.014 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.SaleProduct.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 21:10:31.014 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saisies -> Saisie
+2018/05/28 21:10:31.016 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 21:10:31.017 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.stockList -> Stock
+2018/05/28 21:10:31.017 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Fournisseur.saisies -> Saisie
+2018/05/28 21:10:31.018 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate Validator not found: ignoring
+2018/05/28 21:10:31.064 [ INFO] desktop.deschamps.compta.Compta.App.main() - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2018/05/28 21:10:31.090 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override equals(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 21:10:31.090 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override hashCode(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 21:10:31.099 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using Hibernate built-in connection pool (not for production use!)
+2018/05/28 21:10:31.100 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate connection pool size: 20
+2018/05/28 21:10:31.100 [ INFO] desktop.deschamps.compta.Compta.App.main() - autocommit mode: true
+2018/05/28 21:10:31.105 [ INFO] desktop.deschamps.compta.Compta.App.main() - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/ComptaRestau
+2018/05/28 21:10:31.106 [ INFO] desktop.deschamps.compta.Compta.App.main() - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2018/05/28 21:10:31.470 [ INFO] desktop.deschamps.compta.Compta.App.main() - RDBMS: MySQL, version: 5.7.22-0ubuntu0.16.04.1
+2018/05/28 21:10:31.470 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+2018/05/28 21:10:31.491 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using dialect: org.hibernate.dialect.MySQLDialect
+2018/05/28 21:10:31.494 [ INFO] desktop.deschamps.compta.Compta.App.main() - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+2018/05/28 21:10:31.496 [ INFO] desktop.deschamps.compta.Compta.App.main() - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2018/05/28 21:10:31.496 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic flush during beforeCompletion(): disabled
+2018/05/28 21:10:31.496 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic session close at end of transaction: disabled
+2018/05/28 21:10:31.496 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch size: 15
+2018/05/28 21:10:31.497 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch updates for versioned data: disabled
+2018/05/28 21:10:31.498 [ INFO] desktop.deschamps.compta.Compta.App.main() - Scrollable result sets: enabled
+2018/05/28 21:10:31.498 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC3 getGeneratedKeys(): enabled
+2018/05/28 21:10:31.498 [ INFO] desktop.deschamps.compta.Compta.App.main() - Connection release mode: auto
+2018/05/28 21:10:31.499 [ INFO] desktop.deschamps.compta.Compta.App.main() - Maximum outer join fetch depth: 2
+2018/05/28 21:10:31.499 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default batch fetch size: 1
+2018/05/28 21:10:31.499 [ INFO] desktop.deschamps.compta.Compta.App.main() - Generate SQL with comments: disabled
+2018/05/28 21:10:31.499 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL updates by primary key: disabled
+2018/05/28 21:10:31.499 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL inserts for batching: disabled
+2018/05/28 21:10:31.500 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2018/05/28 21:10:31.501 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using ASTQueryTranslatorFactory
+2018/05/28 21:10:31.502 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query language substitutions: {}
+2018/05/28 21:10:31.502 [ INFO] desktop.deschamps.compta.Compta.App.main() - JPA-QL strict compliance: enabled
+2018/05/28 21:10:31.502 [ INFO] desktop.deschamps.compta.Compta.App.main() - Second-level cache: enabled
+2018/05/28 21:10:31.502 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query cache: disabled
+2018/05/28 21:10:31.502 [ INFO] desktop.deschamps.compta.Compta.App.main() - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2018/05/28 21:10:31.502 [ INFO] desktop.deschamps.compta.Compta.App.main() - Optimize cache for minimal puts: disabled
+2018/05/28 21:10:31.502 [ INFO] desktop.deschamps.compta.Compta.App.main() - Structured second-level cache entries: disabled
+2018/05/28 21:10:31.505 [ INFO] desktop.deschamps.compta.Compta.App.main() - Echoing all SQL to stdout
+2018/05/28 21:10:31.506 [ INFO] desktop.deschamps.compta.Compta.App.main() - Statistics: disabled
+2018/05/28 21:10:31.507 [ INFO] desktop.deschamps.compta.Compta.App.main() - Deleted entity synthetic identifier rollback: disabled
+2018/05/28 21:10:31.507 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default entity-mode: pojo
+2018/05/28 21:10:31.507 [ INFO] desktop.deschamps.compta.Compta.App.main() - Named query checking : enabled
+2018/05/28 21:10:31.533 [ INFO] desktop.deschamps.compta.Compta.App.main() - building session factory
+2018/05/28 21:10:31.606 [ INFO] desktop.deschamps.compta.Compta.App.main() - no default (no-argument) constructor for class: desktop.deschamps.compta.entities.SaleProductHasProduct (class must be instantiated by Interceptor)
+2018/05/28 21:10:31.684 [ INFO] desktop.deschamps.compta.Compta.App.main() - Not binding factory to JNDI, no JNDI name configured
+2018/05/28 21:10:31.742 [ WARN] desktop.deschamps.compta.Compta.App.main() - SQL Error: 1048, SQLState: 23000
+2018/05/28 21:10:31.742 [ERROR] desktop.deschamps.compta.Compta.App.main() - Column 'creationTime' cannot be null
+2018/05/28 21:10:31.745 [ERROR] desktop.deschamps.compta.Compta.App.main() - Error during the store, transaction is cancelled
+2018/05/28 21:12:44.546 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate Annotations 3.4.0.GA
+2018/05/28 21:12:44.558 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate 3.3.2.GA
+2018/05/28 21:12:44.561 [ INFO] desktop.deschamps.compta.Compta.App.main() - hibernate.properties not found
+2018/05/28 21:12:44.564 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bytecode provider name : javassist
+2018/05/28 21:12:44.571 [ INFO] desktop.deschamps.compta.Compta.App.main() - using JDK 1.4 java.sql.Timestamp handling
+2018/05/28 21:12:44.641 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate EntityManager 3.3.2.GA
+2018/05/28 21:12:44.975 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Category
+2018/05/28 21:12:45.004 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Category on table Category
+2018/05/28 21:12:45.068 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Ventes
+2018/05/28 21:12:45.069 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Ventes on table Ventes
+2018/05/28 21:12:45.075 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.QuantityType
+2018/05/28 21:12:45.076 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.QuantityType on table QuantityType
+2018/05/28 21:12:45.077 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.SaleProductHasProduct
+2018/05/28 21:12:45.078 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.SaleProductHasProduct on table SaleProduct_has_Product
+2018/05/28 21:12:45.084 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.SaleProduct
+2018/05/28 21:12:45.085 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.SaleProduct on table SaleProduct
+2018/05/28 21:12:45.090 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Stock
+2018/05/28 21:12:45.091 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Stock on table Stock
+2018/05/28 21:12:45.096 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Product
+2018/05/28 21:12:45.097 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Product on table Product
+2018/05/28 21:12:45.104 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Saisie
+2018/05/28 21:12:45.104 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Saisie on table Saisie
+2018/05/28 21:12:45.108 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Fournisseur
+2018/05/28 21:12:45.109 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Fournisseur on table Fournisseur
+2018/05/28 21:12:45.156 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Category.saleProducts -> SaleProduct
+2018/05/28 21:12:45.156 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.SaleProduct.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 21:12:45.157 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saisies -> Saisie
+2018/05/28 21:12:45.157 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 21:12:45.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.stockList -> Stock
+2018/05/28 21:12:45.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Fournisseur.saisies -> Saisie
+2018/05/28 21:12:45.165 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate Validator not found: ignoring
+2018/05/28 21:12:45.192 [ INFO] desktop.deschamps.compta.Compta.App.main() - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2018/05/28 21:12:45.211 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override equals(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 21:12:45.212 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override hashCode(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 21:12:45.217 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using Hibernate built-in connection pool (not for production use!)
+2018/05/28 21:12:45.217 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate connection pool size: 20
+2018/05/28 21:12:45.217 [ INFO] desktop.deschamps.compta.Compta.App.main() - autocommit mode: true
+2018/05/28 21:12:45.223 [ INFO] desktop.deschamps.compta.Compta.App.main() - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/ComptaRestau
+2018/05/28 21:12:45.223 [ INFO] desktop.deschamps.compta.Compta.App.main() - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2018/05/28 21:12:45.536 [ INFO] desktop.deschamps.compta.Compta.App.main() - RDBMS: MySQL, version: 5.7.22-0ubuntu0.16.04.1
+2018/05/28 21:12:45.537 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+2018/05/28 21:12:45.554 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using dialect: org.hibernate.dialect.MySQLDialect
+2018/05/28 21:12:45.556 [ INFO] desktop.deschamps.compta.Compta.App.main() - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+2018/05/28 21:12:45.557 [ INFO] desktop.deschamps.compta.Compta.App.main() - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2018/05/28 21:12:45.557 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic flush during beforeCompletion(): disabled
+2018/05/28 21:12:45.557 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic session close at end of transaction: disabled
+2018/05/28 21:12:45.557 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch size: 15
+2018/05/28 21:12:45.558 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch updates for versioned data: disabled
+2018/05/28 21:12:45.558 [ INFO] desktop.deschamps.compta.Compta.App.main() - Scrollable result sets: enabled
+2018/05/28 21:12:45.558 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC3 getGeneratedKeys(): enabled
+2018/05/28 21:12:45.558 [ INFO] desktop.deschamps.compta.Compta.App.main() - Connection release mode: auto
+2018/05/28 21:12:45.559 [ INFO] desktop.deschamps.compta.Compta.App.main() - Maximum outer join fetch depth: 2
+2018/05/28 21:12:45.559 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default batch fetch size: 1
+2018/05/28 21:12:45.559 [ INFO] desktop.deschamps.compta.Compta.App.main() - Generate SQL with comments: disabled
+2018/05/28 21:12:45.559 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL updates by primary key: disabled
+2018/05/28 21:12:45.559 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL inserts for batching: disabled
+2018/05/28 21:12:45.559 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2018/05/28 21:12:45.560 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using ASTQueryTranslatorFactory
+2018/05/28 21:12:45.561 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query language substitutions: {}
+2018/05/28 21:12:45.561 [ INFO] desktop.deschamps.compta.Compta.App.main() - JPA-QL strict compliance: enabled
+2018/05/28 21:12:45.561 [ INFO] desktop.deschamps.compta.Compta.App.main() - Second-level cache: enabled
+2018/05/28 21:12:45.561 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query cache: disabled
+2018/05/28 21:12:45.562 [ INFO] desktop.deschamps.compta.Compta.App.main() - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2018/05/28 21:12:45.562 [ INFO] desktop.deschamps.compta.Compta.App.main() - Optimize cache for minimal puts: disabled
+2018/05/28 21:12:45.562 [ INFO] desktop.deschamps.compta.Compta.App.main() - Structured second-level cache entries: disabled
+2018/05/28 21:12:45.564 [ INFO] desktop.deschamps.compta.Compta.App.main() - Echoing all SQL to stdout
+2018/05/28 21:12:45.565 [ INFO] desktop.deschamps.compta.Compta.App.main() - Statistics: disabled
+2018/05/28 21:12:45.565 [ INFO] desktop.deschamps.compta.Compta.App.main() - Deleted entity synthetic identifier rollback: disabled
+2018/05/28 21:12:45.565 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default entity-mode: pojo
+2018/05/28 21:12:45.565 [ INFO] desktop.deschamps.compta.Compta.App.main() - Named query checking : enabled
+2018/05/28 21:12:45.586 [ INFO] desktop.deschamps.compta.Compta.App.main() - building session factory
+2018/05/28 21:12:45.641 [ INFO] desktop.deschamps.compta.Compta.App.main() - no default (no-argument) constructor for class: desktop.deschamps.compta.entities.SaleProductHasProduct (class must be instantiated by Interceptor)
+2018/05/28 21:12:45.703 [ INFO] desktop.deschamps.compta.Compta.App.main() - Not binding factory to JNDI, no JNDI name configured
+2018/05/28 21:12:45.755 [ WARN] desktop.deschamps.compta.Compta.App.main() - SQL Error: 1364, SQLState: HY000
+2018/05/28 21:12:45.755 [ERROR] desktop.deschamps.compta.Compta.App.main() - Field 'creationTime' doesn't have a default value
+2018/05/28 21:12:45.758 [ERROR] desktop.deschamps.compta.Compta.App.main() - Error during the store, transaction is cancelled
+2018/05/28 21:15:05.770 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate Annotations 3.4.0.GA
+2018/05/28 21:15:05.779 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate 3.3.2.GA
+2018/05/28 21:15:05.780 [ INFO] desktop.deschamps.compta.Compta.App.main() - hibernate.properties not found
+2018/05/28 21:15:05.782 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bytecode provider name : javassist
+2018/05/28 21:15:05.786 [ INFO] desktop.deschamps.compta.Compta.App.main() - using JDK 1.4 java.sql.Timestamp handling
+2018/05/28 21:15:05.848 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate EntityManager 3.3.2.GA
+2018/05/28 21:15:06.214 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Category
+2018/05/28 21:15:06.245 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Category on table Category
+2018/05/28 21:15:06.323 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Ventes
+2018/05/28 21:15:06.324 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Ventes on table Ventes
+2018/05/28 21:15:06.341 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.QuantityType
+2018/05/28 21:15:06.341 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.QuantityType on table QuantityType
+2018/05/28 21:15:06.343 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.SaleProductHasProduct
+2018/05/28 21:15:06.343 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.SaleProductHasProduct on table SaleProduct_has_Product
+2018/05/28 21:15:06.350 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.SaleProduct
+2018/05/28 21:15:06.351 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.SaleProduct on table SaleProduct
+2018/05/28 21:15:06.362 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Stock
+2018/05/28 21:15:06.362 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Stock on table Stock
+2018/05/28 21:15:06.366 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Product
+2018/05/28 21:15:06.367 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Product on table Product
+2018/05/28 21:15:06.375 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Saisie
+2018/05/28 21:15:06.376 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Saisie on table Saisie
+2018/05/28 21:15:06.381 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Fournisseur
+2018/05/28 21:15:06.387 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Fournisseur on table Fournisseur
+2018/05/28 21:15:06.444 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Category.saleProducts -> SaleProduct
+2018/05/28 21:15:06.444 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.SaleProduct.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 21:15:06.444 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saisies -> Saisie
+2018/05/28 21:15:06.454 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 21:15:06.454 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.stockList -> Stock
+2018/05/28 21:15:06.454 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Fournisseur.saisies -> Saisie
+2018/05/28 21:15:06.455 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate Validator not found: ignoring
+2018/05/28 21:15:06.486 [ INFO] desktop.deschamps.compta.Compta.App.main() - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2018/05/28 21:15:06.507 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override equals(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 21:15:06.507 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override hashCode(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 21:15:06.516 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using Hibernate built-in connection pool (not for production use!)
+2018/05/28 21:15:06.516 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate connection pool size: 20
+2018/05/28 21:15:06.516 [ INFO] desktop.deschamps.compta.Compta.App.main() - autocommit mode: true
+2018/05/28 21:15:06.528 [ INFO] desktop.deschamps.compta.Compta.App.main() - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/ProjectCompta
+2018/05/28 21:15:06.528 [ INFO] desktop.deschamps.compta.Compta.App.main() - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2018/05/28 21:15:06.934 [ INFO] desktop.deschamps.compta.Compta.App.main() - RDBMS: MySQL, version: 5.7.22-0ubuntu0.16.04.1
+2018/05/28 21:15:06.935 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+2018/05/28 21:15:06.958 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using dialect: org.hibernate.dialect.MySQLDialect
+2018/05/28 21:15:06.961 [ INFO] desktop.deschamps.compta.Compta.App.main() - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+2018/05/28 21:15:06.964 [ INFO] desktop.deschamps.compta.Compta.App.main() - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2018/05/28 21:15:06.964 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic flush during beforeCompletion(): disabled
+2018/05/28 21:15:06.964 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic session close at end of transaction: disabled
+2018/05/28 21:15:06.965 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch size: 15
+2018/05/28 21:15:06.965 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch updates for versioned data: disabled
+2018/05/28 21:15:06.965 [ INFO] desktop.deschamps.compta.Compta.App.main() - Scrollable result sets: enabled
+2018/05/28 21:15:06.966 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC3 getGeneratedKeys(): enabled
+2018/05/28 21:15:06.966 [ INFO] desktop.deschamps.compta.Compta.App.main() - Connection release mode: auto
+2018/05/28 21:15:06.966 [ INFO] desktop.deschamps.compta.Compta.App.main() - Maximum outer join fetch depth: 2
+2018/05/28 21:15:06.967 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default batch fetch size: 1
+2018/05/28 21:15:06.967 [ INFO] desktop.deschamps.compta.Compta.App.main() - Generate SQL with comments: disabled
+2018/05/28 21:15:06.967 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL updates by primary key: disabled
+2018/05/28 21:15:06.967 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL inserts for batching: disabled
+2018/05/28 21:15:06.967 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2018/05/28 21:15:06.969 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using ASTQueryTranslatorFactory
+2018/05/28 21:15:06.970 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query language substitutions: {}
+2018/05/28 21:15:06.970 [ INFO] desktop.deschamps.compta.Compta.App.main() - JPA-QL strict compliance: enabled
+2018/05/28 21:15:06.970 [ INFO] desktop.deschamps.compta.Compta.App.main() - Second-level cache: enabled
+2018/05/28 21:15:06.970 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query cache: disabled
+2018/05/28 21:15:06.971 [ INFO] desktop.deschamps.compta.Compta.App.main() - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2018/05/28 21:15:06.972 [ INFO] desktop.deschamps.compta.Compta.App.main() - Optimize cache for minimal puts: disabled
+2018/05/28 21:15:06.974 [ INFO] desktop.deschamps.compta.Compta.App.main() - Structured second-level cache entries: disabled
+2018/05/28 21:15:06.977 [ INFO] desktop.deschamps.compta.Compta.App.main() - Echoing all SQL to stdout
+2018/05/28 21:15:06.978 [ INFO] desktop.deschamps.compta.Compta.App.main() - Statistics: disabled
+2018/05/28 21:15:06.978 [ INFO] desktop.deschamps.compta.Compta.App.main() - Deleted entity synthetic identifier rollback: disabled
+2018/05/28 21:15:06.978 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default entity-mode: pojo
+2018/05/28 21:15:06.978 [ INFO] desktop.deschamps.compta.Compta.App.main() - Named query checking : enabled
+2018/05/28 21:15:07.023 [ INFO] desktop.deschamps.compta.Compta.App.main() - building session factory
+2018/05/28 21:15:07.099 [ INFO] desktop.deschamps.compta.Compta.App.main() - no default (no-argument) constructor for class: desktop.deschamps.compta.entities.SaleProductHasProduct (class must be instantiated by Interceptor)
+2018/05/28 21:15:07.156 [ INFO] desktop.deschamps.compta.Compta.App.main() - Not binding factory to JNDI, no JNDI name configured
+2018/05/28 21:15:07.218 [ INFO] desktop.deschamps.compta.Compta.App.main() - store transaction commited
+2018/05/28 21:15:07.220 [ WARN] desktop.deschamps.compta.Compta.App.main() - coucou
+2018/05/28 22:48:06.800 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate Annotations 3.4.0.GA
+2018/05/28 22:48:06.809 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate 3.3.2.GA
+2018/05/28 22:48:06.812 [ INFO] desktop.deschamps.compta.Compta.App.main() - hibernate.properties not found
+2018/05/28 22:48:06.816 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bytecode provider name : javassist
+2018/05/28 22:48:06.820 [ INFO] desktop.deschamps.compta.Compta.App.main() - using JDK 1.4 java.sql.Timestamp handling
+2018/05/28 22:48:06.897 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate EntityManager 3.3.2.GA
+2018/05/28 22:48:07.263 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Category
+2018/05/28 22:48:07.290 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Category on table Category
+2018/05/28 22:48:07.356 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Ventes
+2018/05/28 22:48:07.356 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Ventes on table Ventes
+2018/05/28 22:48:07.363 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.QuantityType
+2018/05/28 22:48:07.364 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.QuantityType on table QuantityType
+2018/05/28 22:48:07.365 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.SaleProductHasProduct
+2018/05/28 22:48:07.366 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.SaleProductHasProduct on table SaleProduct_has_Product
+2018/05/28 22:48:07.372 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.SaleProduct
+2018/05/28 22:48:07.372 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.SaleProduct on table SaleProduct
+2018/05/28 22:48:07.378 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Stock
+2018/05/28 22:48:07.378 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Stock on table Stock
+2018/05/28 22:48:07.383 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Product
+2018/05/28 22:48:07.383 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Product on table Product
+2018/05/28 22:48:07.388 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Saisie
+2018/05/28 22:48:07.388 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Saisie on table Saisie
+2018/05/28 22:48:07.391 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Fournisseur
+2018/05/28 22:48:07.392 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Fournisseur on table Fournisseur
+2018/05/28 22:48:07.444 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Category.saleProducts -> SaleProduct
+2018/05/28 22:48:07.444 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.SaleProduct.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 22:48:07.444 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saisies -> Saisie
+2018/05/28 22:48:07.445 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 22:48:07.445 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.stockList -> Stock
+2018/05/28 22:48:07.445 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Fournisseur.saisies -> Saisie
+2018/05/28 22:48:07.446 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate Validator not found: ignoring
+2018/05/28 22:48:07.468 [ INFO] desktop.deschamps.compta.Compta.App.main() - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2018/05/28 22:48:07.492 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override equals(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 22:48:07.492 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override hashCode(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 22:48:07.498 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using Hibernate built-in connection pool (not for production use!)
+2018/05/28 22:48:07.498 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate connection pool size: 20
+2018/05/28 22:48:07.499 [ INFO] desktop.deschamps.compta.Compta.App.main() - autocommit mode: true
+2018/05/28 22:48:07.504 [ INFO] desktop.deschamps.compta.Compta.App.main() - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/ProjectCompta
+2018/05/28 22:48:07.504 [ INFO] desktop.deschamps.compta.Compta.App.main() - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2018/05/28 22:48:07.869 [ INFO] desktop.deschamps.compta.Compta.App.main() - RDBMS: MySQL, version: 5.7.22-0ubuntu0.16.04.1
+2018/05/28 22:48:07.869 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+2018/05/28 22:48:07.888 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using dialect: org.hibernate.dialect.MySQLDialect
+2018/05/28 22:48:07.892 [ INFO] desktop.deschamps.compta.Compta.App.main() - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+2018/05/28 22:48:07.893 [ INFO] desktop.deschamps.compta.Compta.App.main() - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2018/05/28 22:48:07.893 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic flush during beforeCompletion(): disabled
+2018/05/28 22:48:07.893 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic session close at end of transaction: disabled
+2018/05/28 22:48:07.894 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch size: 15
+2018/05/28 22:48:07.894 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch updates for versioned data: disabled
+2018/05/28 22:48:07.894 [ INFO] desktop.deschamps.compta.Compta.App.main() - Scrollable result sets: enabled
+2018/05/28 22:48:07.894 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC3 getGeneratedKeys(): enabled
+2018/05/28 22:48:07.894 [ INFO] desktop.deschamps.compta.Compta.App.main() - Connection release mode: auto
+2018/05/28 22:48:07.895 [ INFO] desktop.deschamps.compta.Compta.App.main() - Maximum outer join fetch depth: 2
+2018/05/28 22:48:07.895 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default batch fetch size: 1
+2018/05/28 22:48:07.895 [ INFO] desktop.deschamps.compta.Compta.App.main() - Generate SQL with comments: disabled
+2018/05/28 22:48:07.895 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL updates by primary key: disabled
+2018/05/28 22:48:07.896 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL inserts for batching: disabled
+2018/05/28 22:48:07.896 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2018/05/28 22:48:07.897 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using ASTQueryTranslatorFactory
+2018/05/28 22:48:07.898 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query language substitutions: {}
+2018/05/28 22:48:07.898 [ INFO] desktop.deschamps.compta.Compta.App.main() - JPA-QL strict compliance: enabled
+2018/05/28 22:48:07.898 [ INFO] desktop.deschamps.compta.Compta.App.main() - Second-level cache: enabled
+2018/05/28 22:48:07.898 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query cache: disabled
+2018/05/28 22:48:07.898 [ INFO] desktop.deschamps.compta.Compta.App.main() - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2018/05/28 22:48:07.899 [ INFO] desktop.deschamps.compta.Compta.App.main() - Optimize cache for minimal puts: disabled
+2018/05/28 22:48:07.899 [ INFO] desktop.deschamps.compta.Compta.App.main() - Structured second-level cache entries: disabled
+2018/05/28 22:48:07.902 [ INFO] desktop.deschamps.compta.Compta.App.main() - Echoing all SQL to stdout
+2018/05/28 22:48:07.903 [ INFO] desktop.deschamps.compta.Compta.App.main() - Statistics: disabled
+2018/05/28 22:48:07.903 [ INFO] desktop.deschamps.compta.Compta.App.main() - Deleted entity synthetic identifier rollback: disabled
+2018/05/28 22:48:07.903 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default entity-mode: pojo
+2018/05/28 22:48:07.903 [ INFO] desktop.deschamps.compta.Compta.App.main() - Named query checking : enabled
+2018/05/28 22:48:07.928 [ INFO] desktop.deschamps.compta.Compta.App.main() - building session factory
+2018/05/28 22:48:08.005 [ INFO] desktop.deschamps.compta.Compta.App.main() - no default (no-argument) constructor for class: desktop.deschamps.compta.entities.SaleProductHasProduct (class must be instantiated by Interceptor)
+2018/05/28 22:48:08.081 [ INFO] desktop.deschamps.compta.Compta.App.main() - Not binding factory to JNDI, no JNDI name configured
+2018/05/28 22:48:08.104 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Category
+2018/05/28 22:48:08.104 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Category on table Category
+2018/05/28 22:48:08.106 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Ventes
+2018/05/28 22:48:08.106 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Ventes on table Ventes
+2018/05/28 22:48:08.107 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.QuantityType
+2018/05/28 22:48:08.108 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.QuantityType on table QuantityType
+2018/05/28 22:48:08.108 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.SaleProductHasProduct
+2018/05/28 22:48:08.109 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.SaleProductHasProduct on table SaleProduct_has_Product
+2018/05/28 22:48:08.110 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.SaleProduct
+2018/05/28 22:48:08.111 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.SaleProduct on table SaleProduct
+2018/05/28 22:48:08.113 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Stock
+2018/05/28 22:48:08.114 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Stock on table Stock
+2018/05/28 22:48:08.117 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Product
+2018/05/28 22:48:08.118 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Product on table Product
+2018/05/28 22:48:08.120 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Saisie
+2018/05/28 22:48:08.121 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Saisie on table Saisie
+2018/05/28 22:48:08.123 [ INFO] desktop.deschamps.compta.Compta.App.main() - Binding entity from annotated class: desktop.deschamps.compta.entities.Fournisseur
+2018/05/28 22:48:08.123 [ INFO] desktop.deschamps.compta.Compta.App.main() - Bind entity desktop.deschamps.compta.entities.Fournisseur on table Fournisseur
+2018/05/28 22:48:08.126 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Category.saleProducts -> SaleProduct
+2018/05/28 22:48:08.126 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.SaleProduct.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 22:48:08.126 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saisies -> Saisie
+2018/05/28 22:48:08.126 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.saleProductHasProductSet -> SaleProduct_has_Product
+2018/05/28 22:48:08.126 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Product.stockList -> Stock
+2018/05/28 22:48:08.127 [ INFO] desktop.deschamps.compta.Compta.App.main() - Mapping collection: desktop.deschamps.compta.entities.Fournisseur.saisies -> Saisie
+2018/05/28 22:48:08.127 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate Validator not found: ignoring
+2018/05/28 22:48:08.136 [ INFO] desktop.deschamps.compta.Compta.App.main() - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2018/05/28 22:48:08.137 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override equals(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 22:48:08.137 [ WARN] desktop.deschamps.compta.Compta.App.main() - composite-id class does not override hashCode(): desktop.deschamps.compta.entities.SaleProductHasProductId
+2018/05/28 22:48:08.138 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using Hibernate built-in connection pool (not for production use!)
+2018/05/28 22:48:08.138 [ INFO] desktop.deschamps.compta.Compta.App.main() - Hibernate connection pool size: 20
+2018/05/28 22:48:08.138 [ INFO] desktop.deschamps.compta.Compta.App.main() - autocommit mode: true
+2018/05/28 22:48:08.138 [ INFO] desktop.deschamps.compta.Compta.App.main() - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/ProjectCompta
+2018/05/28 22:48:08.138 [ INFO] desktop.deschamps.compta.Compta.App.main() - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2018/05/28 22:48:08.157 [ INFO] desktop.deschamps.compta.Compta.App.main() - RDBMS: MySQL, version: 5.7.22-0ubuntu0.16.04.1
+2018/05/28 22:48:08.157 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+2018/05/28 22:48:08.157 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using dialect: org.hibernate.dialect.MySQLDialect
+2018/05/28 22:48:08.157 [ INFO] desktop.deschamps.compta.Compta.App.main() - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic flush during beforeCompletion(): disabled
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - Automatic session close at end of transaction: disabled
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch size: 15
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC batch updates for versioned data: disabled
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - Scrollable result sets: enabled
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - JDBC3 getGeneratedKeys(): enabled
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - Connection release mode: auto
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - Maximum outer join fetch depth: 2
+2018/05/28 22:48:08.158 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default batch fetch size: 1
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Generate SQL with comments: disabled
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL updates by primary key: disabled
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Order SQL inserts for batching: disabled
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Using ASTQueryTranslatorFactory
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query language substitutions: {}
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - JPA-QL strict compliance: enabled
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Second-level cache: enabled
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Query cache: disabled
+2018/05/28 22:48:08.159 [ INFO] desktop.deschamps.compta.Compta.App.main() - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2018/05/28 22:48:08.160 [ INFO] desktop.deschamps.compta.Compta.App.main() - Optimize cache for minimal puts: disabled
+2018/05/28 22:48:08.160 [ INFO] desktop.deschamps.compta.Compta.App.main() - Structured second-level cache entries: disabled
+2018/05/28 22:48:08.160 [ INFO] desktop.deschamps.compta.Compta.App.main() - Echoing all SQL to stdout
+2018/05/28 22:48:08.160 [ INFO] desktop.deschamps.compta.Compta.App.main() - Statistics: disabled
+2018/05/28 22:48:08.160 [ INFO] desktop.deschamps.compta.Compta.App.main() - Deleted entity synthetic identifier rollback: disabled
+2018/05/28 22:48:08.160 [ INFO] desktop.deschamps.compta.Compta.App.main() - Default entity-mode: pojo
+2018/05/28 22:48:08.160 [ INFO] desktop.deschamps.compta.Compta.App.main() - Named query checking : enabled
+2018/05/28 22:48:08.165 [ INFO] desktop.deschamps.compta.Compta.App.main() - building session factory
+2018/05/28 22:48:08.183 [ INFO] desktop.deschamps.compta.Compta.App.main() - no default (no-argument) constructor for class: desktop.deschamps.compta.entities.SaleProductHasProduct (class must be instantiated by Interceptor)
+2018/05/28 22:48:08.205 [ INFO] desktop.deschamps.compta.Compta.App.main() - Not binding factory to JNDI, no JNDI name configured
+2018/05/28 22:48:08.291 [ INFO] desktop.deschamps.compta.Compta.App.main() - store transaction commited
+2018/05/28 22:48:08.293 [ WARN] desktop.deschamps.compta.Compta.App.main() - coucou
